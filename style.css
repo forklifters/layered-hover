@@ -10,7 +10,7 @@ body {
     border-radius: 20px;
     margin:  50 auto;
     background: linear-gradient(
-      cyan,
+      rgb(0, 174, 255),
       purple
     );
 }
