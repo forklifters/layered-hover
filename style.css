@@ -1,5 +1,4 @@
-body {
-    /* background-color: red; */
+body {    
     margin: 0;
     padding: 0;
     width: 100%;
@@ -10,7 +9,7 @@ body {
     border-radius: 20px;
     margin:  50 auto;
     background: linear-gradient(
-      rgb(0, 174, 255),
+      white,
       purple
     );
 }
@@ -19,7 +18,6 @@ body {
     position: relative;
     width: 360px;
     height: 640px;
-    background: rgba(0,0,0,1);
     transform: rotate(-30deg) skew(25deg) scale(.8);
     margin-top: 10%;
 }
@@ -30,32 +28,28 @@ body {
     transition: 0.5s;
 }
 
+.container:hover img:nth-child(5) {
+    transform: translate(200px, -200px);
+    opacity: 1;
+}
 .container:hover img:nth-child(4) {
     transform: translate(160px, -160px);
-    opacity: 1;
+    opacity: .8;
 }
 .container:hover img:nth-child(3) {
     transform: translate(120px, -120px);
-    opacity: .8;
+    opacity: .6;
 }
 .container:hover img:nth-child(2) {
     transform: translate(80px, -80px);
-    opacity: .6;
+    opacity: .4;
 }
 .container:hover img:nth-child(1) {
     transform: translate(40px, -40px);
-    opacity: .4;
+    opacity: .2;
 }
 
 @media only screen and (max-width: 768px) {
-    body {
-        /* background: linear-gradient(
-            purple,    
-            rgb(0, 174, 255)
-          ); */
-          background: white;
-    }
-
     .container {
         width: 270px;
         height: 480px;
@@ -63,14 +57,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        /* background: linear-gradient(
-            purple,    
-            rgb(0, 174, 255)
-          ); */
-          background: red;
-    }
-
     .container {
         width: 180px;
         height: 320px;
