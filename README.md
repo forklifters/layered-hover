@@ -2,7 +2,7 @@
 
 This is just a quick demo to practice using gradients, transforms, nth-child properties, and hover. Media queries breakpoints added at 768px and 600px. 
 
-Demo: http://layered-hover.surge.sh/
+[Live Demo Link](http://layered-hover.surge.sh/)
 
 Image resources: http://psdgang.com/material_design_app/
 
